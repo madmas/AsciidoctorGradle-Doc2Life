@@ -3,7 +3,7 @@ Markus Schlichting <m.schlichting@mynethome.de>
 
 == Presentation
 
-Please find the presentation slides at presentation/presentation.pdf or online at
+Please find the presentation slides at https://github.com/madmas/AsciidoctorGradle-Doc2Life/raw/master/presentation/presentation.pdf[presentation/presentation.pdf] or online at  http://www.slideshare.net/madmas/documentation-brought-to-life-asciidoctor-gradle-greach-2015[Slideshare] or https://speakerdeck.com/madmas/documentation-brought-to-life-asciidoctor-and-gradle-greach-2015[SpeakerDeck]
 
 
 == Examples
