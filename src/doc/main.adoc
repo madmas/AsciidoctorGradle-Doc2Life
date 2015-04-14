@@ -3,6 +3,7 @@ Markus Schlichting <markus.schlichting@canoo.com>
 :icons: font
 :icon-set: fa
 :sourcedir: ../main/java
+:revnumber: {product-version}
 
 _Hello_, Devoxx Morocco 2017 - writing with *AsciiDoc* Syntax is just as simple as writing a `plain` email.
 
@@ -10,7 +11,7 @@ TIP: Always have the comprehensive http://asciidoctor.org/docs/asciidoc-syntax-q
 
 And don't forget to icon:twitter[2x,role="aqua"] about your fun with AsciiDoctor.
 
-== The Section
+== Documentation for Version {product-version}
 
 [square]
 * item 1
