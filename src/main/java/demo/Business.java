@@ -5,12 +5,10 @@ package demo;
  */
 class Business {
 
+    // tag::calculateKeyFigureMethod[]
     public int calculateKeyFigure(){
         return 42;
     }
-
-    public void showMyCode(){
-        System.out.println("Sample with System.out.prinln");
-    }
+    // end::calculateKeyFigureMethod[]
 
 }
