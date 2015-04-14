@@ -16,16 +16,19 @@ apply plugin: 'com.github.jruby-gradle.base'
 apply plugin: 'org.asciidoctor.gradle.asciidoctor'
 apply plugin: 'com.github.ben-manes.versions'
 
-apply plugin: 'groovy'
 apply plugin: 'java'
+apply plugin: 'groovy'
 
 repositories{
     jcenter()
 }
 
 dependencies{
-    testCompile group: 'junit', name: 'junit', version: '4.11'
+    testCompile("org.spockframework:spock-core:1.0-groovy-2.4") {
+        exclude group: "org.codehaus.groovy"
+    }
     testCompile "org.codehaus.groovy:groovy-all:2.4.1"
+
 }
 
 asciidoctor {
@@ -43,14 +46,20 @@ asciidoctor {
                 toc: 'right',
                 linkattrs: true,
                 encoding: 'utf-8',
-                pagenums: '1',
-                'product-version' : project.version
+                pagenums: '1'
 
     resources {
         from('src/doc/') {
              include '**/*.png'
              include '**/*.jpg'
         }
+    }
+}
+
+test {
+    reports {
+        junitXml.enabled = false
+        html.enabled = true
     }
 }
 

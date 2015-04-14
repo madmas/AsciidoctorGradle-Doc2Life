@@ -13,9 +13,12 @@ And don't forget to icon:twitter[2x,role="aqua"] about your fun with AsciiDoctor
 
 == Documentation for Version {product-version}
 
-[square]
-* item 1
-* item 2
+[format="csv", options="header"]
+|===
+base,outcome
+
+include::../test/resources/test.csv[]
+|===
 
 [source,java]
 .demo/Business.java
