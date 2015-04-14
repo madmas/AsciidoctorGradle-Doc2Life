@@ -19,5 +19,5 @@ And don't forget to icon:twitter[2x,role="aqua"] about your fun with AsciiDoctor
 [source,java]
 .demo/Business.java
 ----
-include::{sourcedir}/demo/Business.java[lines=12..14]
+include::{sourcedir}/demo/Business.java[tags=calculateKeyFigureMethod]
 ----
