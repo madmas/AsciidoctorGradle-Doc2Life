@@ -29,3 +29,22 @@ The examples are accessible via the branches within this repository:
 | demonstate using a CSV a source for data driven tests and the generated documentation at the same time
 
 |===
+
+
+== Resources
+
+As the references links listed on the last slide do not work in the PDF:
+
+http://danhyun.github.io/asciidoctor-gradle-examples/[asciidoctor-gradle-examples]
+
+http://mojavelinux.github.io/decks/discover-zen-writing-asciidoc/cojugs201305/index.html[Discover the zen of writing AsciiDoc]
+
+http://mojavelinux.github.io/decks/asciidoc-with-pleasure/[AsciiDoc with pleasure]
+
+http://mgreau.com/slides/websocket-asciidoctor/DevNation2014/slides.html[When WebSockets meet AsciiDoctor]
+
+http://www.slideshare.net/aalmiray/devoxx-asciidoctor-tips[Asciidoctor Tips from Devoxx]
+
+http://mrhaki.blogspot.ch[MrHaki's Blog with regular posts on AsciiDoctor]
+
+https://github.com/pledbrook/practical-groovy-public[Peter Ledbrook: 'Practical Groovy']
