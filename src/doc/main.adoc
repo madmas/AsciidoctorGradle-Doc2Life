@@ -1,0 +1,33 @@
+= AsciiDoc & Gradle: Documentation brought to life
+Markus Schlichting <markus.schlichting@canoo.com>
+:icons: font
+
+_Hello_ GreachConf 2015 - writing with *AsciiDoc* Syntax is just as simple as writing a `plain` email.
+
+TIP: Always have the comprehensive http://asciidoctor.org/docs/asciidoc-syntax-quick-reference[QuickReference] handy.
+
+And don't forget to icon:twitter[2x,role="aqua"] about your fun with AsciiDoctor.
+
+== The Section
+
+[square]
+* item 1
+* item 2
+
+[source,groovy]
+----
+class LoginController {
+
+    def authenticationTrustResolver
+    def springSecurityService
+
+    def index = {
+            if (springSecurityService.isLoggedIn()) {
+                    redirect uri: SpringSecurityUtils.securityConfig.successHandler.defaultTargetUrl
+            }
+            else {
+                    redirect action: 'auth', params: params
+            }
+    }
+}
+----
