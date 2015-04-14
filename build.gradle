@@ -16,8 +16,16 @@ apply plugin: 'com.github.jruby-gradle.base'
 apply plugin: 'org.asciidoctor.gradle.asciidoctor'
 apply plugin: 'com.github.ben-manes.versions'
 
+apply plugin: 'groovy'
+apply plugin: 'java'
+
 repositories{
     jcenter()
+}
+
+dependencies{
+    testCompile group: 'junit', name: 'junit', version: '4.11'
+    testCompile "org.codehaus.groovy:groovy-all:2.4.1"
 }
 
 asciidoctor {
@@ -44,3 +52,5 @@ asciidoctor {
         }
     }
 }
+
+asciidoctor.dependsOn test
