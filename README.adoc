@@ -1,17 +1,16 @@
-=  Documentation brought to life: Asciidoctor & Gradle (Greach 2015)
+=  Documentation brought to life: Asciidoctor & Gradle
 Markus Schlichting <m.schlichting@mynethome.de>
 
 == Presentation
 
-Please find the presentation slides at https://github.com/madmas/AsciidoctorGradle-Doc2Life/raw/master/presentation/presentation.pdf[presentation/presentation.pdf] or online at  http://www.slideshare.net/madmas/documentation-brought-to-life-asciidoctor-gradle-greach-2015[Slideshare] or https://speakerdeck.com/madmas/documentation-brought-to-life-asciidoctor-and-gradle-greach-2015[SpeakerDeck]
-
+Please find the presentation slides at https://github.com/madmas/AsciidoctorGradle-Doc2Life/raw/master/presentation/Slides_JavaForum2016.pdf[presentation/Slides_JavaForum2016.pdf]
 
 == Examples
 
 The examples are accessible via the branches within this repository:
 
 |===
-|branch name | description 
+|branch name | description
 
 |master
 | first example, showing the basic gradle build generating HTML and PDF from `src/doc/main.adoc`, demonstrating AsciiDoctor syntaxt and base features
@@ -48,3 +47,5 @@ http://www.slideshare.net/aalmiray/devoxx-asciidoctor-tips[Asciidoctor Tips from
 http://mrhaki.blogspot.ch[MrHaki's Blog with regular posts on AsciiDoctor]
 
 https://github.com/pledbrook/practical-groovy-public[Peter Ledbrook: 'Practical Groovy']
+
+https://github.com/melix/gradlesummit2016-jigsaw-gradle/tree/master/slides[Slides with AsciiDoctor & Gradle by Cédric Champeau]
