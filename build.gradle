@@ -16,6 +16,8 @@ apply plugin: 'com.github.jruby-gradle.base'
 apply plugin: 'org.asciidoctor.gradle.asciidoctor'
 apply plugin: 'com.github.ben-manes.versions'
 
+apply plugin: 'java'
+
 repositories{
     jcenter()
 }
