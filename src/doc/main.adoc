@@ -5,7 +5,7 @@ Markus Schlichting <markus.schlichting@canoo.com>
 :sourcedir: ../main/java
 :revnumber: {product-version}
 
-_Hello_, Devoxx Morocco 2017 - writing with *AsciiDoc* Syntax is just as simple as writing a `plain` email.
+_Hello_ GreachConf 2015 - writing with *AsciiDoc* Syntax is just as simple as writing a `plain` email.
 
 TIP: Always have the comprehensive http://asciidoctor.org/docs/asciidoc-syntax-quick-reference[QuickReference] handy.
 
