@@ -1,8 +1,9 @@
-= AsciiDoc & Gradle: Documentation brought to life
+= Living documentation with Asciidoctor & Gradle
 Markus Schlichting <markus.schlichting@canoo.com>
 :icons: font
+:icon-set: fa
 
-_Hallo_ Java Forum Stuttgart 2016 - writing with *AsciiDoc* Syntax is just as simple as writing a `plain` email.
+_Hello_, Devoxx Morocco 2017 - writing with *AsciiDoc* Syntax is just as simple as writing a `plain` email.
 
 TIP: Always have the comprehensive http://asciidoctor.org/docs/asciidoc-syntax-quick-reference[QuickReference] handy.
 

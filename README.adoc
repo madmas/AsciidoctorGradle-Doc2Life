@@ -1,4 +1,5 @@
-=  Documentation brought to life: Asciidoctor & Gradle
+=  Living documentation with Asciidoctor and Gradle
+
 Markus Schlichting <m.schlichting@mynethome.de>
 
 == Presentation
@@ -13,7 +14,7 @@ The examples are accessible via the branches within this repository:
 |branch name | description
 
 |master
-| first example, showing the basic gradle build generating HTML and PDF from `src/doc/main.adoc`, demonstrating AsciiDoctor syntaxt and base features
+| first example, showing the basic gradle build generating HTML and PDF from `src/doc/main.adoc`, demonstrating AsciiDoctor syntax and base features
 
 |includeByLine
 | demonstrate including a code snippet via reference by line numbers
@@ -25,7 +26,7 @@ The examples are accessible via the branches within this repository:
 | demonstrate passing the version number from the build into the generated document
 
 |livingDoc
-| demonstate using a CSV a source for data driven tests and the generated documentation at the same time
+| demonstrate using a CSV a source for data driven tests and the generated documentation at the same time
 
 |===
 

@@ -5,7 +5,7 @@ buildscript {
 
     dependencies {
         classpath 'org.asciidoctor:asciidoctor-gradle-plugin:1.5.3'
-        classpath 'org.asciidoctor:asciidoctorj-pdf:1.5.0-alpha.11'
+        classpath 'org.asciidoctor:asciidoctorj-pdf:1.5.0-alpha.16'
         classpath 'com.github.jruby-gradle:jruby-gradle-plugin:0.1.11'
         classpath 'com.github.ben-manes:gradle-versions-plugin:0.13.0'
     }
@@ -28,12 +28,11 @@ asciidoctor {
     options doctype: 'book'
 
 	sourceDir = new File('src/doc')
-	backends = ['html5', 'pdf']
+	backends = ['html', 'pdf']
 	
     attributes  'source-highlighter': 'coderay',
                 'coderay-linenums-mode': 'table',
                 toc: 'right',
-                icon: 'font',
                 linkattrs: true,
                 encoding: 'utf-8',
                 pagenums: '1'
