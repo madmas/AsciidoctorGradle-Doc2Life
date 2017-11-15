@@ -1,4 +1,4 @@
-= Living documentation with Asciidoctor & Gradle
+= Living documentation with AsciiDoctor & Gradle
 Markus Schlichting <markus.schlichting@canoo.com>
 :icons: font
 :icon-set: fa
