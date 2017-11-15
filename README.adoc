@@ -1,10 +1,9 @@
 =  Living documentation with Asciidoctor and Gradle
-
 Markus Schlichting <m.schlichting@mynethome.de>
 
 == Presentation
 
-Please find the presentation slides at https://github.com/madmas/AsciidoctorGradle-Doc2Life/raw/master/presentation/Slides_JavaForum2016.pdf[presentation/Slides_JavaForum2016.pdf]
+Please find the presentation slides at https://github.com/madmas/AsciidoctorGradle-Doc2Life/raw/master/presentation/Slides_DevoxxMA2017.pdf[presentation/Slides_DevoxxMA2017.pdf]
 
 == Examples
 
