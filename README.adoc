@@ -32,7 +32,7 @@ The examples are accessible via the branches within this repository:
 
 == Resources
 
-As the references links listed on the last slide do not work in the PDF:
+Some interesting links:
 
 http://danhyun.github.io/asciidoctor-gradle-examples/[asciidoctor-gradle-examples]
 
@@ -42,10 +42,15 @@ http://mojavelinux.github.io/decks/asciidoc-with-pleasure/[AsciiDoc with pleasur
 
 http://mgreau.com/slides/websocket-asciidoctor/DevNation2014/slides.html[When WebSockets meet AsciiDoctor]
 
-http://www.slideshare.net/aalmiray/devoxx-asciidoctor-tips[Asciidoctor Tips from Devoxx]
+http://www.slideshare.net/aalmiray/devoxx-asciidoctor-tips[Asciidoctor Tips from Devoxx 2014]
 
 http://mrhaki.blogspot.ch[MrHaki's Blog with regular posts on AsciiDoctor]
 
 https://github.com/pledbrook/practical-groovy-public[Peter Ledbrook: 'Practical Groovy']
 
 https://github.com/melix/gradlesummit2016-jigsaw-gradle/tree/master/slides[Slides with AsciiDoctor & Gradle by Cédric Champeau]
+
+Devoxx 2017::
+    https://www.youtube.com/watch?v=ggBv_pZDu0c[Hubert Sablonnière: Documentation as Code (explained to my dad)]
++
+https://www.youtube.com/watch?v=T7RVT2_ntRU[Asciidoctor: New, Noteworthy, and Beyond by Alex Soto]
